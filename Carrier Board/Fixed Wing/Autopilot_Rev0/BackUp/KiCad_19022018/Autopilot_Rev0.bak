@@ -1,0 +1,1829 @@
+EESchema Schematic File Version 4
+LIBS:Autopilot_Rev0-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 2
+Title ""
+Date "2017-08-22"
+Rev "rev-00"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Autopilot_Rev0-rescue:Pixhawk_2_Cube_80-Pin_Header-RESCUE-Autopilot_Rev0 U1
+U 4 1 599ADF9F
+P 2350 2350
+F 0 "U1" H 3181 2253 60  0000 L CNN
+F 1 "Pixhawk_2_Cube_80-Pin_Header" H 2550 1850 60  0000 L CNN
+F 2 "Pixhawk_2-Cube:Pixhawk-2_Cube" H 2350 2350 60  0001 C CNN
+F 3 "" H 2350 2350 60  0001 C CNN
+	4    2350 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X04-RESCUE-Autopilot_Rev0 J2
+U 1 1 599AE040
+P 3650 1450
+F 0 "J2" H 3728 1491 50  0000 L CNN
+F 1 "I2C 1" H 3728 1400 50  0000 L CNN
+F 2 "JST_PA:JST-PA-04_Top-entry-type" H 3650 1450 50  0001 C CNN
+F 3 "" H 3650 1450 50  0001 C CNN
+	1    3650 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:R_Small-RESCUE-Autopilot_Rev0 R1
+U 1 1 599AE2FD
+P 2500 2050
+F 0 "R1" H 2559 2096 50  0000 L CNN
+F 1 "2k2" H 2559 2005 50  0000 L CNN
+F 2 "Resistors-Mini-SMD:R_0805" H 2500 2050 50  0001 C CNN
+F 3 "" H 2500 2050 50  0001 C CNN
+F 4 "vorhanden [0805]" H 2500 2050 60  0001 C CNN "manf#"
+	1    2500 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:R_Small-RESCUE-Autopilot_Rev0 R3
+U 1 1 599AE3A3
+P 2900 2050
+F 0 "R3" H 2959 2096 50  0000 L CNN
+F 1 "2k2" H 2959 2005 50  0000 L CNN
+F 2 "Resistors-Mini-SMD:R_0805" H 2900 2050 50  0001 C CNN
+F 3 "" H 2900 2050 50  0001 C CNN
+	1    2900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+3V3-RESCUE-Autopilot_Rev0 #PWR03
+U 1 1 599AE40E
+P 2900 1900
+F 0 "#PWR03" H 2900 1750 50  0001 C CNN
+F 1 "+3V3" H 2915 2073 50  0000 C CNN
+F 2 "" H 2900 1900 50  0001 C CNN
+F 3 "" H 2900 1900 50  0001 C CNN
+	1    2900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+3V3-RESCUE-Autopilot_Rev0 #PWR01
+U 1 1 599AE43E
+P 2500 1900
+F 0 "#PWR01" H 2500 1750 50  0001 C CNN
+F 1 "+3V3" H 2515 2073 50  0000 C CNN
+F 2 "" H 2500 1900 50  0001 C CNN
+F 3 "" H 2500 1900 50  0001 C CNN
+	1    2500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X04-RESCUE-Autopilot_Rev0 J3
+U 1 1 599AEA79
+P 3650 2600
+F 0 "J3" H 3728 2641 50  0000 L CNN
+F 1 "I2C 2" H 3728 2550 50  0000 L CNN
+F 2 "JST_PA:JST-PA-04_Top-entry-type" H 3650 2600 50  0001 C CNN
+F 3 "" H 3650 2600 50  0001 C CNN
+	1    3650 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:R_Small-RESCUE-Autopilot_Rev0 R2
+U 1 1 599AEA95
+P 2500 3200
+F 0 "R2" H 2559 3246 50  0000 L CNN
+F 1 "2k2" H 2559 3155 50  0000 L CNN
+F 2 "Resistors-Mini-SMD:R_0805" H 2500 3200 50  0001 C CNN
+F 3 "" H 2500 3200 50  0001 C CNN
+	1    2500 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:R_Small-RESCUE-Autopilot_Rev0 R4
+U 1 1 599AEA9B
+P 2900 3200
+F 0 "R4" H 2959 3246 50  0000 L CNN
+F 1 "2k2" H 2959 3155 50  0000 L CNN
+F 2 "Resistors-Mini-SMD:R_0805" H 2900 3200 50  0001 C CNN
+F 3 "" H 2900 3200 50  0001 C CNN
+F 4 "Value" H 2900 3200 60  0001 C CNN "manf#"
+	1    2900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+3V3-RESCUE-Autopilot_Rev0 #PWR04
+U 1 1 599AEAA1
+P 2900 3050
+F 0 "#PWR04" H 2900 2900 50  0001 C CNN
+F 1 "+3V3" H 2915 3223 50  0000 C CNN
+F 2 "" H 2900 3050 50  0001 C CNN
+F 3 "" H 2900 3050 50  0001 C CNN
+	1    2900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+3V3-RESCUE-Autopilot_Rev0 #PWR02
+U 1 1 599AEAA7
+P 2500 3050
+F 0 "#PWR02" H 2500 2900 50  0001 C CNN
+F 1 "+3V3" H 2515 3223 50  0000 C CNN
+F 2 "" H 2500 3050 50  0001 C CNN
+F 3 "" H 2500 3050 50  0001 C CNN
+	1    2500 3050
+	1    0    0    -1  
+$EndComp
+Text Label 2850 1400 0    60   ~ 0
+I2C_1_SCL
+Text Label 2850 1500 0    60   ~ 0
+I2C_1_SDA
+Text Label 2900 2550 0    60   ~ 0
+I2C_2_SCL
+Text Label 2900 2650 0    60   ~ 0
+I2C_2_SDA
+$Comp
+L Autopilot_Rev0-rescue:Pixhawk_2_Cube_80-Pin_Header-RESCUE-Autopilot_Rev0 U1
+U 11 1 599B0066
+P 2450 3650
+F 0 "U1" H 3381 3053 60  0000 L CNN
+F 1 "Pixhawk_2_Cube_80-Pin_Header" H 2650 2150 60  0000 L CNN
+F 2 "Pixhawk_2-Cube:Pixhawk-2_Cube" H 2450 3650 60  0001 C CNN
+F 3 "" H 2450 3650 60  0001 C CNN
+F 4 "DF17(1.0H)-80DP-0.5V(57)" H 2450 3650 60  0001 C CNN "manf#"
+F 5 "Value" H 2450 3650 60  0001 C CNN "digikey#"
+F 6 "Value" H 2450 3650 60  0001 C CNN "vorhanden"
+F 7 "1874484" H 2450 3650 60  0001 C CNN "farnell#"
+F 8 "Value" H 2450 3650 60  0001 C CNN "banggood#"
+	11   2450 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X06-RESCUE-Autopilot_Rev0 J1
+U 1 1 599B016E
+P 4350 4200
+F 0 "J1" H 4550 4150 50  0000 R CNN
+F 1 "TELEM 1" H 4750 4250 50  0000 R CNN
+F 2 "JST_PA:JST-PA-06_Top-entry-type" H 4350 4200 50  0001 C CNN
+F 3 "" H 4350 4200 50  0001 C CNN
+	1    4350 4200
+	1    0    0    -1  
+$EndComp
+Text Label 3150 3650 2    60   ~ 0
+SERIAL1_CTS
+Text Label 3150 3750 2    60   ~ 0
+SERIAL1_RTS
+Text Label 3100 3850 2    60   ~ 0
+SERIAL1_RX
+Text Label 3100 3950 2    60   ~ 0
+SERIAL1_TX
+Text Label 3100 4250 2    60   ~ 0
+SERIAL2_RX
+Text Label 3100 4350 2    60   ~ 0
+SERIAL2_TX
+$Comp
+L Autopilot_Rev0-rescue:+5V_Sensors-RESCUE-Autopilot_Rev0 #PWR06
+U 1 1 599AFC2A
+P 3350 1250
+F 0 "#PWR06" H 3350 1100 50  0001 C CNN
+F 1 "+5V_Sensors" H 3365 1423 50  0000 C CNN
+F 2 "" H 3350 1250 50  0001 C CNN
+F 3 "" H 3350 1250 50  0001 C CNN
+	1    3350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+5V_Sensors-RESCUE-Autopilot_Rev0 #PWR08
+U 1 1 599AFD6E
+P 3350 2400
+F 0 "#PWR08" H 3350 2250 50  0001 C CNN
+F 1 "+5V_Sensors" H 3365 2573 50  0000 C CNN
+F 2 "" H 3350 2400 50  0001 C CNN
+F 3 "" H 3350 2400 50  0001 C CNN
+	1    3350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+5V_Sensors-RESCUE-Autopilot_Rev0 #PWR014
+U 1 1 599AFE0A
+P 4050 3900
+F 0 "#PWR014" H 4050 3750 50  0001 C CNN
+F 1 "+5V_Sensors" H 4100 4050 50  0000 C CNN
+F 2 "" H 4050 3900 50  0001 C CNN
+F 3 "" H 4050 3900 50  0001 C CNN
+	1    4050 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Sensors-RESCUE-Autopilot_Rev0 #PWR07
+U 1 1 599AFEC7
+P 3350 1650
+F 0 "#PWR07" H 3350 1400 50  0001 C CNN
+F 1 "GND_Sensors" H 3355 1477 50  0000 C CNN
+F 2 "" H 3350 1650 50  0001 C CNN
+F 3 "" H 3350 1650 50  0001 C CNN
+	1    3350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Sensors-RESCUE-Autopilot_Rev0 #PWR09
+U 1 1 599AFF43
+P 3350 2800
+F 0 "#PWR09" H 3350 2550 50  0001 C CNN
+F 1 "GND_Sensors" H 3355 2627 50  0000 C CNN
+F 2 "" H 3350 2800 50  0001 C CNN
+F 3 "" H 3350 2800 50  0001 C CNN
+	1    3350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Sensors-RESCUE-Autopilot_Rev0 #PWR05
+U 1 1 599AFFB8
+P 4050 4500
+F 0 "#PWR05" H 4050 4250 50  0001 C CNN
+F 1 "GND_Sensors" H 4055 4327 50  0000 C CNN
+F 2 "" H 4050 4500 50  0001 C CNN
+F 3 "" H 4050 4500 50  0001 C CNN
+	1    4050 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X06-RESCUE-Autopilot_Rev0 J13
+U 1 1 599B090B
+P 11450 4250
+F 0 "J13" H 11528 4291 50  0000 L CNN
+F 1 "GPS 1" H 11528 4200 50  0000 L CNN
+F 2 "JST_PA:JST-PA-06_Top-entry-type" H 11450 4250 50  0001 C CNN
+F 3 "" H 11450 4250 50  0001 C CNN
+F 4 "B06B-PASK-1 [vorhanden]" H 11450 4250 60  0001 C CNN "manf#"
+	1    11450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+5V_Cube-RESCUE-Autopilot_Rev0 #PWR029
+U 1 1 599B09F7
+P 11100 3950
+F 0 "#PWR029" H 11100 3800 50  0001 C CNN
+F 1 "+5V_Cube" H 11115 4123 50  0000 C CNN
+F 2 "" H 11100 3950 50  0001 C CNN
+F 3 "" H 11100 3950 50  0001 C CNN
+	1    11100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Cube-RESCUE-Autopilot_Rev0 #PWR030
+U 1 1 599B0AC2
+P 11100 4550
+F 0 "#PWR030" H 11100 4300 50  0001 C CNN
+F 1 "GND_Cube" H 11105 4377 50  0000 C CNN
+F 2 "" H 11100 4550 50  0001 C CNN
+F 3 "" H 11100 4550 50  0001 C CNN
+	1    11100 4550
+	1    0    0    -1  
+$EndComp
+Text Label 3100 4450 2    60   ~ 0
+SERIAL_3_RX
+Text Label 10650 4200 0    60   ~ 0
+SERIAL_3_RX
+Text Label 3100 4550 2    60   ~ 0
+SERIAL_3_TX
+Text Label 10650 4100 0    60   ~ 0
+SERIAL_3_TX
+$Comp
+L Autopilot_Rev0-rescue:Pixhawk_2_Cube_80-Pin_Header-RESCUE-Autopilot_Rev0 U1
+U 10 1 599B4B80
+P 2950 5400
+F 0 "U1" H 4381 5253 60  0000 L CNN
+F 1 "Pixhawk_2_Cube_80-Pin_Header" H 3150 4800 60  0000 L CNN
+F 2 "Pixhawk_2-Cube:Pixhawk-2_Cube" H 2950 5400 60  0001 C CNN
+F 3 "" H 2950 5400 60  0001 C CNN
+	10   2950 5400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:Pixhawk_2_Cube_80-Pin_Header-RESCUE-Autopilot_Rev0 U1
+U 2 1 599B6D0E
+P 2250 6250
+F 0 "U1" H 2981 6053 60  0000 L CNN
+F 1 "Pixhawk_2_Cube_80-Pin_Header" H 2450 5550 60  0000 L CNN
+F 2 "Pixhawk_2-Cube:Pixhawk-2_Cube" H 2250 6250 60  0001 C CNN
+F 3 "" H 2250 6250 60  0001 C CNN
+	2    2250 6250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:Pixhawk_2_Cube_80-Pin_Header-RESCUE-Autopilot_Rev0 U1
+U 7 1 599BC381
+P 2450 7200
+F 0 "U1" H 3381 7103 60  0000 L CNN
+F 1 "Pixhawk_2_Cube_80-Pin_Header" H 2650 6700 60  0000 L CNN
+F 2 "Pixhawk_2-Cube:Pixhawk-2_Cube" H 2450 7200 60  0001 C CNN
+F 3 "" H 2450 7200 60  0001 C CNN
+	7    2450 7200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X04-RESCUE-Autopilot_Rev0 J5
+U 1 1 599BC831
+P 8350 5900
+F 0 "J5" H 8428 5941 50  0000 L CNN
+F 1 "USB" H 8428 5850 50  0000 L CNN
+F 2 "JST_PA:JST-PA-04_Top-entry-type" H 8350 5900 50  0001 C CNN
+F 3 "" H 8350 5900 50  0001 C CNN
+	1    8350 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Cube-RESCUE-Autopilot_Rev0 #PWR013
+U 1 1 599BC841
+P 8050 6100
+F 0 "#PWR013" H 8050 5850 50  0001 C CNN
+F 1 "GND_Cube" H 8055 5927 50  0000 C CNN
+F 2 "" H 8050 6100 50  0001 C CNN
+F 3 "" H 8050 6100 50  0001 C CNN
+	1    8050 6100
+	1    0    0    -1  
+$EndComp
+Text Label 7750 5850 0    60   ~ 0
+OTG_DP1
+Text Label 7750 5950 0    60   ~ 0
+OTG_DM1
+Wire Wire Line
+	2650 2350 2350 2350
+Wire Wire Line
+	2650 1400 2650 2150
+Wire Wire Line
+	2650 1400 3450 1400
+Wire Wire Line
+	3450 1500 2750 1500
+Wire Wire Line
+	2750 1500 2750 2150
+Wire Wire Line
+	2750 2450 2350 2450
+Wire Wire Line
+	3350 1300 3350 1250
+Wire Wire Line
+	3450 1600 3350 1600
+Wire Wire Line
+	3350 1600 3350 1650
+Wire Wire Line
+	2900 1900 2900 1950
+Wire Wire Line
+	2500 1900 2500 1950
+Wire Wire Line
+	2500 2150 2650 2150
+Connection ~ 2650 2150
+Wire Wire Line
+	2900 2150 2750 2150
+Connection ~ 2750 2150
+Wire Wire Line
+	2350 2550 2750 2550
+Wire Wire Line
+	2350 2650 2650 2650
+Wire Wire Line
+	3450 2450 3350 2450
+Wire Wire Line
+	3350 2450 3350 2400
+Wire Wire Line
+	3450 2750 3350 2750
+Wire Wire Line
+	3350 2750 3350 2800
+Wire Wire Line
+	2900 3050 2900 3100
+Wire Wire Line
+	2500 3050 2500 3100
+Wire Wire Line
+	2500 3300 2650 3300
+Wire Wire Line
+	2650 3300 2650 2650
+Connection ~ 2650 2650
+Wire Wire Line
+	2900 3300 2750 3300
+Wire Wire Line
+	2750 3300 2750 2550
+Connection ~ 2750 2550
+Wire Wire Line
+	4150 4450 4050 4450
+Wire Wire Line
+	5200 4000 5200 4050
+Wire Wire Line
+	2450 3950 3100 3950
+Wire Wire Line
+	2450 3850 3100 3850
+Wire Wire Line
+	2450 3750 3150 3750
+Wire Wire Line
+	2450 3650 3150 3650
+Wire Wire Line
+	3100 4350 2450 4350
+Wire Wire Line
+	3100 4250 2450 4250
+Wire Wire Line
+	3450 1300 3350 1300
+Wire Wire Line
+	11250 4000 11100 4000
+Wire Wire Line
+	11100 4000 11100 3950
+Wire Wire Line
+	11250 4500 11100 4500
+Wire Wire Line
+	11100 4500 11100 4550
+Wire Wire Line
+	10650 4200 11250 4200
+Wire Wire Line
+	11250 4100 10650 4100
+Wire Wire Line
+	2450 4450 3100 4450
+Wire Wire Line
+	2450 4550 3100 4550
+Wire Wire Line
+	8150 6050 8050 6050
+Wire Wire Line
+	8050 6050 8050 6100
+Wire Wire Line
+	7750 5850 8150 5850
+Wire Wire Line
+	7750 5950 8150 5950
+Text Label 2850 7200 2    60   ~ 0
+OTG_DM1
+Text Label 2850 7300 2    60   ~ 0
+OTG_DP1
+Wire Wire Line
+	2450 7200 2850 7200
+Wire Wire Line
+	2450 7300 2850 7300
+$Comp
+L Autopilot_Rev0-rescue:Pixhawk_2_Cube_80-Pin_Header-RESCUE-Autopilot_Rev0 U1
+U 5 1 599C3005
+P 14200 3850
+F 0 "U1" H 15831 3253 60  0000 L CNN
+F 1 "Pixhawk_2_Cube_80-Pin_Header" H 14300 2350 60  0000 L CNN
+F 2 "Pixhawk_2-Cube:Pixhawk-2_Cube" H 14200 3850 60  0001 C CNN
+F 3 "" H 14200 3850 60  0001 C CNN
+	5    14200 3850
+	1    0    0    -1  
+$EndComp
+Text Label 12800 4650 0    60   ~ 0
+IO-USART1_RX_SPECTRUM_DSM
+Wire Wire Line
+	14200 4650 12800 4650
+$Comp
+L Autopilot_Rev0-rescue:Pixhawk_2_Cube_80-Pin_Header-RESCUE-Autopilot_Rev0 U1
+U 9 1 599C38D0
+P 14500 2250
+F 0 "U1" H 15831 1753 60  0000 L CNN
+F 1 "Pixhawk_2_Cube_80-Pin_Header" H 14350 950 60  0000 L CNN
+F 2 "Pixhawk_2-Cube:Pixhawk-2_Cube" H 14500 2250 60  0001 C CNN
+F 3 "" H 14500 2250 60  0001 C CNN
+	9    14500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:Pixhawk_2_Cube_80-Pin_Header-RESCUE-Autopilot_Rev0 U1
+U 3 1 599D2DEF
+P 14800 900
+F 0 "U1" H 15831 503 60  0000 L CNN
+F 1 "Pixhawk_2_Cube_80-Pin_Header" H 14350 -200 60  0000 L CNN
+F 2 "Pixhawk_2-Cube:Pixhawk-2_Cube" H 14800 900 60  0001 C CNN
+F 3 "" H 14800 900 60  0001 C CNN
+	3    14800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X06-RESCUE-Autopilot_Rev0 J23
+U 1 1 599D34AC
+P 8350 4000
+F 0 "J23" H 8428 4041 50  0000 L CNN
+F 1 "Leitwerk" H 8428 3950 50  0000 L CNN
+F 2 "JST_PA:JST-PA-06_Top-entry-type" H 8350 4000 50  0001 C CNN
+F 3 "" H 8350 4000 50  0001 C CNN
+F 4 "B06B-PASK-1(LF)(SN)" H 8350 4000 60  0001 C CNN "manf#"
+F 5 "Value" H 8350 4000 60  0001 C CNN "digikey#"
+F 6 "ja" H 8350 4000 60  0001 C CNN "vorhanden"
+	1    8350 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14200 4350 13550 4350
+Text Label 13550 4350 0    60   ~ 0
+IO-CH6-PROT
+Wire Wire Line
+	14200 4250 13550 4250
+Text Label 13550 4250 0    60   ~ 0
+IO-CH5-PROT
+Wire Wire Line
+	14200 4150 13550 4150
+Text Label 13550 4150 0    60   ~ 0
+IO-CH4-PROT
+Wire Wire Line
+	14200 4050 13550 4050
+Text Label 13550 4050 0    60   ~ 0
+IO-CH3-PROT
+Wire Wire Line
+	14200 3950 13550 3950
+Text Label 13550 3950 0    60   ~ 0
+IO-CH2-PROT
+Wire Wire Line
+	14200 3850 13550 3850
+Text Label 13550 3850 0    60   ~ 0
+IO-CH1-PROT
+Wire Wire Line
+	9550 4250 9050 4250
+Wire Wire Line
+	9550 4150 9050 4150
+Text Label 9050 4250 0    60   ~ 0
++5V_Servo
+Text Label 9050 4150 0    60   ~ 0
+GND_Servo
+Wire Wire Line
+	8150 4450 7650 4450
+Wire Wire Line
+	8150 4550 7650 4550
+Wire Wire Line
+	14500 2750 13300 2750
+Text Label 14500 2750 2    60   ~ 0
+VDD_SERVO
+Wire Wire Line
+	13200 2850 13300 2850
+Text Label 14500 2850 2    60   ~ 0
+VDD_SERVO_IN
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X03-RESCUE-Autopilot_Rev0 J16
+U 1 1 599DB94C
+P 9750 3850
+F 0 "J16" H 9827 3891 50  0000 L CNN
+F 1 "Motor" H 9827 3800 50  0000 L CNN
+F 2 "JST_PA:JST-PA-03_Top-entry-type" H 9750 3850 50  0001 C CNN
+F 3 "" H 9750 3850 50  0001 C CNN
+F 4 "B03B-PASK-1(LF)(SN)" H 9750 3850 60  0001 C CNN "manf#"
+F 5 "455-1833-ND" H 9750 3850 60  0001 C CNN "digikey#"
+F 6 "ja" H 9750 3850 60  0001 C CNN "vorhanden"
+	1    9750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 900  14050 900 
+Text Label 14050 900  0    60   ~ 0
+FMU-CH1-PROT
+Text Label 10700 4300 0    60   ~ 0
+I2C_1_SCL
+Text Label 10700 4400 0    60   ~ 0
+I2C_1_SDA
+Wire Wire Line
+	10700 4300 11250 4300
+Wire Wire Line
+	10700 4400 11250 4400
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X10-RESCUE-Autopilot_Rev0 J21
+U 1 1 599C3635
+P 9750 4600
+F 0 "J21" H 9828 4641 50  0000 L CNN
+F 1 "Flügel-L" H 9828 4550 50  0000 L CNN
+F 2 "JST_PA:JST-PA-10_Top-entry-type" H 9750 4600 50  0001 C CNN
+F 3 "" H 9750 4600 50  0001 C CNN
+F 4 "B10B-PASK-1(LF)(SN)" H 9750 4600 60  0001 C CNN "manf#"
+F 5 "Value" H 9750 4600 60  0001 C CNN "digikey#"
+F 6 "ja" H 9750 4600 60  0001 C CNN "vorhanden"
+	1    9750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X07-RESCUE-Autopilot_Rev0 J22
+U 1 1 599C37AD
+P 8350 4750
+F 0 "J22" H 8427 4791 50  0000 L CNN
+F 1 "Flügel-R" H 8427 4700 50  0000 L CNN
+F 2 "JST_PA:JST-PA-07_Top-entry-type" H 8350 4750 50  0001 C CNN
+F 3 "" H 8350 4750 50  0001 C CNN
+F 4 "B07B-PASK-1(LF)(SN)" H 8350 4750 60  0001 C CNN "manf#"
+F 5 "455-1837-ND" H 8350 4750 60  0001 C CNN "digikey#"
+	1    8350 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4550 9050 4550
+Wire Wire Line
+	9550 4450 9050 4450
+Text Label 9050 4550 0    60   ~ 0
++5V_Servo
+Text Label 9050 4450 0    60   ~ 0
+GND_Servo
+Wire Wire Line
+	8900 4350 9550 4350
+Text Label 8900 4350 0    60   ~ 0
+IO-CH5-PROT
+Wire Wire Line
+	14200 4450 13550 4450
+Text Label 13550 4450 0    60   ~ 0
+IO-CH7-PROT
+Wire Wire Line
+	8900 4650 9550 4650
+Text Label 8900 4650 0    60   ~ 0
+IO-CH7-PROT
+Wire Wire Line
+	8950 4750 9550 4750
+Text Label 8950 4750 0    60   ~ 0
++5V_Sensors
+Wire Wire Line
+	8950 5050 9550 5050
+Text Label 8950 5050 0    60   ~ 0
+GND_Sensors
+Text Label 9050 4850 0    60   ~ 0
+I2C_2_SCL
+Text Label 9050 4950 0    60   ~ 0
+I2C_2_SDA
+Wire Wire Line
+	9050 4850 9550 4850
+Wire Wire Line
+	9050 4950 9550 4950
+Text Label 7650 4550 0    60   ~ 0
++5V_Servo
+Text Label 7650 4450 0    60   ~ 0
+GND_Servo
+Wire Wire Line
+	8150 4850 7650 4850
+Wire Wire Line
+	8150 4750 7650 4750
+Text Label 7650 4850 0    60   ~ 0
++5V_Servo
+Text Label 7650 4750 0    60   ~ 0
+GND_Servo
+Wire Wire Line
+	7500 4650 8150 4650
+Text Label 7500 4950 0    60   ~ 0
+IO-CH6-PROT
+Wire Wire Line
+	8150 4950 7500 4950
+Wire Wire Line
+	8150 3750 7650 3750
+Wire Wire Line
+	8150 3850 7650 3850
+Text Label 7650 3850 0    60   ~ 0
++5V_Servo
+Text Label 7650 3750 0    60   ~ 0
+GND_Servo
+Wire Wire Line
+	8150 4150 7650 4150
+Wire Wire Line
+	8150 4050 7650 4050
+Text Label 7650 4150 0    60   ~ 0
++5V_Servo
+Text Label 7650 4050 0    60   ~ 0
+GND_Servo
+Wire Wire Line
+	7500 3950 8150 3950
+Text Label 7500 4250 0    60   ~ 0
+IO-CH4-PROT
+Wire Wire Line
+	8150 4250 7500 4250
+Wire Wire Line
+	9550 3750 9050 3750
+Text Label 9050 3750 0    60   ~ 0
+GND_Servo
+Wire Wire Line
+	9550 3850 9050 3850
+Text Label 9050 3850 0    60   ~ 0
++5V_Servo
+Text Label 9050 3850 0    60   ~ 0
++5V_Servo
+Text Label 9050 3750 0    60   ~ 0
+GND_Servo
+Wire Wire Line
+	8900 3950 9550 3950
+Text Label 8900 3950 0    60   ~ 0
+IO-CH3-PROT
+Wire Wire Line
+	14800 1000 14050 1000
+Text Label 14050 1000 0    60   ~ 0
+FMU-CH2-PROT
+Wire Wire Line
+	14800 1100 14050 1100
+Text Label 14050 1100 0    60   ~ 0
+FMU-CH3-PROT
+$Comp
+L Autopilot_Rev0-rescue:R_Small-RESCUE-Autopilot_Rev0 R5
+U 1 1 599D0941
+P 4600 6950
+F 0 "R5" V 4404 6950 50  0000 C CNN
+F 1 "430" V 4495 6950 50  0000 C CNN
+F 2 "Resistors-Mini-SMD:R_0805" H 4600 6950 50  0001 C CNN
+F 3 "" H 4600 6950 50  0001 C CNN
+F 4 "vorhanden [0805]" H 4600 6950 60  0001 C CNN "manf#"
+	1    4600 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14800 1700 14050 1700
+Text Label 14050 1700 0    60   ~ 0
+FMU-~LED_AMBER
+Wire Wire Line
+	4700 6950 5550 6950
+Text Label 5550 6950 2    60   ~ 0
+FMU-~LED_AMBER
+Wire Wire Line
+	4300 6950 4500 6950
+$Comp
+L Autopilot_Rev0-rescue:Pixhawk_2_Cube_80-Pin_Header-RESCUE-Autopilot_Rev0 U1
+U 1 1 599D6C23
+P 2250 7950
+F 0 "U1" H 2981 7953 60  0000 L CNN
+F 1 "Pixhawk_2_Cube_80-Pin_Header" H 2450 7650 60  0000 L CNN
+F 2 "Pixhawk_2-Cube:Pixhawk-2_Cube" H 2250 7950 60  0001 C CNN
+F 3 "" H 2250 7950 60  0001 C CNN
+	1    2250 7950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:Pixhawk_2_Cube_80-Pin_Header-RESCUE-Autopilot_Rev0 U1
+U 6 1 599D6DB9
+P 2450 8500
+F 0 "U1" H 3381 8353 60  0000 L CNN
+F 1 "Pixhawk_2_Cube_80-Pin_Header" H 2650 7900 60  0000 L CNN
+F 2 "Pixhawk_2-Cube:Pixhawk-2_Cube" H 2450 8500 60  0001 C CNN
+F 3 "" H 2450 8500 60  0001 C CNN
+	6    2450 8500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:Pixhawk_2_Cube_80-Pin_Header-RESCUE-Autopilot_Rev0 U1
+U 8 1 599D9310
+P 2550 9350
+F 0 "U1" H 3581 9253 60  0000 L CNN
+F 1 "Pixhawk_2_Cube_80-Pin_Header" H 2750 8850 60  0000 L CNN
+F 2 "Pixhawk_2-Cube:Pixhawk-2_Cube" H 2550 9350 60  0001 C CNN
+F 3 "" H 2550 9350 60  0001 C CNN
+	8    2550 9350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:TACT-CK-PTS645-SMD-RESCUE-Autopilot_Rev0 SW2
+U 1 1 599D9BCB
+P 6650 6800
+F 0 "SW2" H 6650 7020 50  0000 C CNN
+F 1 "Reset FMU" H 6650 6929 50  0000 C CNN
+F 2 "manuf:CK-PTS645-SMD" H 6650 6550 60  0001 C CNN
+F 3 "" H 6650 6800 60  0000 C CNN
+F 4 "PTS645SM43SMTR92 LFS" H 6650 6800 60  0001 C CNN "manf#"
+F 5 "CKN9112CT-ND" H 6650 6800 60  0001 C CNN "digikey#"
+F 6 "Value" H 6650 6800 60  0001 C CNN "vorhanden"
+	1    6650 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 1800 14250 1800
+Text Label 14250 1800 0    60   ~ 0
+FMU-~RESET
+Wire Wire Line
+	5900 6800 6450 6800
+Text Label 5900 6800 0    60   ~ 0
+FMU-~RESET
+Wire Wire Line
+	6450 6800 6450 6900
+Wire Wire Line
+	6450 6900 6500 6900
+Connection ~ 6450 6800
+$Comp
+L Autopilot_Rev0-rescue:GND_Cube-RESCUE-Autopilot_Rev0 #PWR043
+U 1 1 599DE050
+P 6950 6850
+F 0 "#PWR043" H 6950 6600 50  0001 C CNN
+F 1 "GND_Cube" H 6955 6677 50  0000 C CNN
+F 2 "" H 6950 6850 50  0001 C CNN
+F 3 "" H 6950 6850 50  0001 C CNN
+	1    6950 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 6900 6850 6900
+Wire Wire Line
+	6850 6900 6850 6800
+Wire Wire Line
+	6800 6800 6850 6800
+Wire Wire Line
+	6950 6800 6950 6850
+Connection ~ 6850 6800
+$Comp
+L Autopilot_Rev0-rescue:USB_OTG-RESCUE-Autopilot_Rev0 J24
+U 1 1 599E258A
+P 8850 6000
+F 0 "J24" H 8905 6467 50  0000 C CNN
+F 1 "MicroUSB" H 8905 6376 50  0000 C CNN
+F 2 "Connectors_USB:USB_Micro-B_Vertical_Molex-105133-0001" H 9000 5950 50  0001 C CNN
+F 3 "" H 9000 5950 50  0001 C CNN
+F 4 "1051330001" H 8850 6000 60  0001 C CNN "manf#"
+F 5 "WM9734CT-ND" H 8850 6000 60  0001 C CNN "digikey#"
+F 6 "Value" H 8850 6000 60  0001 C CNN "vorhanden"
+	1    8850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Cube-RESCUE-Autopilot_Rev0 #PWR033
+U 1 1 599E2A42
+P 8850 6550
+F 0 "#PWR033" H 8850 6300 50  0001 C CNN
+F 1 "GND_Cube" H 8855 6377 50  0000 C CNN
+F 2 "" H 8850 6550 50  0001 C CNN
+F 3 "" H 8850 6550 50  0001 C CNN
+	1    8850 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 6400 8850 6450
+Wire Wire Line
+	8750 6400 8750 6450
+Wire Wire Line
+	8750 6450 8850 6450
+Connection ~ 8850 6450
+NoConn ~ 9150 6200
+Text Label 9550 6000 2    60   ~ 0
+OTG_DP1
+Text Label 9550 6100 2    60   ~ 0
+OTG_DM1
+Wire Wire Line
+	9150 6000 9550 6000
+Wire Wire Line
+	9150 6100 9550 6100
+$Comp
+L Autopilot_Rev0-rescue:Buzzer-RESCUE-Autopilot_Rev0 BZ1
+U 1 1 599E3297
+P 5250 7500
+F 0 "BZ1" H 5403 7529 50  0000 L CNN
+F 1 "Buzzer" H 5403 7438 50  0000 L CNN
+F 2 "devices_[JS]:PKMCS0909E4000-R1" V 5225 7600 50  0001 C CNN
+F 3 "" V 5225 7600 50  0001 C CNN
+F 4 "PKMCS0909E4000-R1" H 5250 7500 60  0001 C CNN "manf#"
+F 5 "490-9647-1-ND" H 5250 7500 60  0001 C CNN "digikey#"
+F 6 "-" H 5250 7500 60  0001 C CNN "vorhanden"
+F 7 "-" H 5250 7500 60  0001 C CNN "#mouser"
+F 8 "Value" H 5250 7500 60  0001 C CNN "farnell#"
+F 9 "Value" H 5250 7500 60  0001 C CNN "banggood#"
+	1    5250 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 9350 2850 9350
+Text Label 2850 9350 2    60   ~ 0
+ALARM
+Wire Wire Line
+	4850 7400 5150 7400
+Text Label 4850 7400 0    60   ~ 0
+ALARM
+$Comp
+L Autopilot_Rev0-rescue:GND_Cube-RESCUE-Autopilot_Rev0 #PWR042
+U 1 1 599E4CE6
+P 5050 7650
+F 0 "#PWR042" H 5050 7400 50  0001 C CNN
+F 1 "GND_Cube" H 5055 7477 50  0000 C CNN
+F 2 "" H 5050 7650 50  0001 C CNN
+F 3 "" H 5050 7650 50  0001 C CNN
+	1    5050 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 7650 5050 7600
+Wire Wire Line
+	5050 7600 5150 7600
+$Comp
+L Autopilot_Rev0-rescue:TACT-CK-PTS645-SMD-RESCUE-Autopilot_Rev0 SW1
+U 1 1 599E75DE
+P 6650 7950
+F 0 "SW1" H 6650 8170 50  0000 C CNN
+F 1 "Safety" H 6650 8079 50  0000 C CNN
+F 2 "manuf:CK-PTS645-SMD" H 6650 7700 60  0001 C CNN
+F 3 "" H 6650 7950 60  0000 C CNN
+F 4 "PTS645SK43SMTR92 LFS" H 6650 7950 60  0001 C CNN "manf#"
+F 5 "CKN9084CT-ND" H 6650 7950 60  0001 C CNN "digikey#"
+F 6 "Value" H 6650 7950 60  0001 C CNN "vorhanden"
+	1    6650 7950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 7950 6850 7950
+Wire Wire Line
+	6800 8050 6850 8050
+Wire Wire Line
+	6850 8050 6850 7950
+Connection ~ 6850 7950
+Wire Wire Line
+	5900 7950 6450 7950
+Wire Wire Line
+	6450 7950 6450 8050
+Wire Wire Line
+	6450 8050 6500 8050
+Connection ~ 6450 7950
+Wire Wire Line
+	2550 9650 2850 9650
+Text Label 2850 9650 2    60   ~ 0
+SAFETY
+Text Label 7250 7950 2    60   ~ 0
+SAFETY
+$Comp
+L Autopilot_Rev0-rescue:+5V_Servo-RESCUE-Autopilot_Rev0 #PWR058
+U 1 1 599F3E17
+P 13200 2850
+F 0 "#PWR058" H 13200 2700 50  0001 C CNN
+F 1 "+5V_Servo" H 13215 3023 50  0000 C CNN
+F 2 "" H 13200 2850 50  0001 C CNN
+F 3 "" H 13200 2850 50  0001 C CNN
+	1    13200 2850
+	-1   0    0    -1  
+$EndComp
+Connection ~ 13300 2850
+$Comp
+L Autopilot_Rev0-rescue:R_Small-RESCUE-Autopilot_Rev0 R9
+U 1 1 59A0E93B
+P 4600 6600
+F 0 "R9" V 4404 6600 50  0000 C CNN
+F 1 "160" V 4495 6600 50  0000 C CNN
+F 2 "Resistors-Mini-SMD:R_0805" H 4600 6600 50  0001 C CNN
+F 3 "" H 4600 6600 50  0001 C CNN
+F 4 "vorhanden [0805]" H 4600 6600 60  0001 C CNN "manf#"
+	1    4600 6600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5700 6600 4700 6600
+Text Label 5700 6600 2    60   ~ 0
+IO-~LED_SAFETY_PROT
+Wire Wire Line
+	4500 6600 4300 6600
+Wire Wire Line
+	13250 5050 14200 5050
+Text Label 13250 5050 0    60   ~ 0
+IO-~LED_SAFETY_PROT
+Text Label 2700 7400 2    60   ~ 0
+VBUS
+Wire Wire Line
+	2450 7400 2700 7400
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X03-RESCUE-Autopilot_Rev0 J25
+U 1 1 59A4755F
+P 6750 8500
+F 0 "J25" H 6827 8541 50  0000 L CNN
+F 1 "SAFETY" H 6827 8450 50  0000 L CNN
+F 2 "JST_ZH:JST_ZH_B3B-ZR" H 6750 8500 50  0001 C CNN
+F 3 "" H 6750 8500 50  0001 C CNN
+F 4 "B3B-ZR(LF)(SN)" H 6750 8500 60  0001 C CNN "manf#"
+F 5 "455-1658-ND" H 6750 8500 60  0001 C CNN "digikey#"
+F 6 "Value" H 6750 8500 60  0001 C CNN "vorhanden"
+	1    6750 8500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 8500 5600 8500
+Text Label 5600 8500 0    60   ~ 0
+IO-~LED_SAFETY_PROT
+Wire Wire Line
+	6250 8600 6550 8600
+Text Label 6250 8600 0    60   ~ 0
+SAFETY
+$Sheet
+S 11800 6950 4050 2850
+U 59A4D3E8
+F0 "Power_Supply" 60
+F1 "Power_Supply.sch" 60
+F2 "+5V_Servo_Supply" O L 11800 9350 60 
+F3 "+5V_Sensors_Supply" O L 11800 9650 60 
+F4 "+5V_Cube_Supply" O L 11800 9500 60 
+F5 "GND_Servo_Supply" I L 11800 8800 60 
+F6 "GND_Cube_Supply" I L 11800 8650 60 
+F7 "GND_Sensors_Supply" I L 11800 8500 60 
+F8 "BATT_VOLTAGE_SENS_PROT" O L 11800 7750 60 
+F9 "BATT_CURRENT_SENS_PROT" O L 11800 7900 60 
+F10 "AUX_BATT_VOLTAGE_SENS" O L 11800 8050 60 
+F11 "AUX_BATT_CURRENT_SENS" O L 11800 8200 60 
+F12 "+3V3_Sensors" O L 11800 7150 60 
+F13 "VBUS" O L 11800 7300 60 
+F14 "Power_Supply" O L 11800 7450 60 
+$EndSheet
+$Comp
+L Autopilot_Rev0-rescue:+5V_Servo-RESCUE-Autopilot_Rev0 #PWR057
+U 1 1 59A4FCF6
+P 11550 9300
+F 0 "#PWR057" H 11550 9150 50  0001 C CNN
+F 1 "+5V_Servo" H 11565 9473 50  0000 C CNN
+F 2 "" H 11550 9300 50  0001 C CNN
+F 3 "" H 11550 9300 50  0001 C CNN
+	1    11550 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+5V_Cube-RESCUE-Autopilot_Rev0 #PWR055
+U 1 1 59A4FDDF
+P 11250 9450
+F 0 "#PWR055" H 11250 9300 50  0001 C CNN
+F 1 "+5V_Cube" H 11265 9623 50  0000 C CNN
+F 2 "" H 11250 9450 50  0001 C CNN
+F 3 "" H 11250 9450 50  0001 C CNN
+	1    11250 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+5V_Sensors-RESCUE-Autopilot_Rev0 #PWR052
+U 1 1 59A50004
+P 10950 9600
+F 0 "#PWR052" H 10950 9450 50  0001 C CNN
+F 1 "+5V_Sensors" H 10965 9773 50  0000 C CNN
+F 2 "" H 10950 9600 50  0001 C CNN
+F 3 "" H 10950 9600 50  0001 C CNN
+	1    10950 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 9350 11550 9350
+Wire Wire Line
+	11550 9350 11550 9300
+Wire Wire Line
+	11800 9500 11250 9500
+Wire Wire Line
+	11250 9500 11250 9450
+Wire Wire Line
+	11800 9650 10950 9650
+Wire Wire Line
+	10950 9650 10950 9600
+$Comp
+L Autopilot_Rev0-rescue:GND_Servo-RESCUE-Autopilot_Rev0 #PWR056
+U 1 1 59A5279A
+P 11550 8850
+F 0 "#PWR056" H 11550 8600 50  0001 C CNN
+F 1 "GND_Servo" H 11555 8677 50  0000 C CNN
+F 2 "" H 11550 8850 50  0001 C CNN
+F 3 "" H 11550 8850 50  0001 C CNN
+	1    11550 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 8850 11550 8800
+Wire Wire Line
+	11550 8800 11800 8800
+$Comp
+L Autopilot_Rev0-rescue:GND_Cube-RESCUE-Autopilot_Rev0 #PWR054
+U 1 1 59A52AB4
+P 11250 8700
+F 0 "#PWR054" H 11250 8450 50  0001 C CNN
+F 1 "GND_Cube" H 11255 8527 50  0000 C CNN
+F 2 "" H 11250 8700 50  0001 C CNN
+F 3 "" H 11250 8700 50  0001 C CNN
+	1    11250 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Sensors-RESCUE-Autopilot_Rev0 #PWR051
+U 1 1 59A52B85
+P 10950 8550
+F 0 "#PWR051" H 10950 8300 50  0001 C CNN
+F 1 "GND_Sensors" H 10955 8377 50  0000 C CNN
+F 2 "" H 10950 8550 50  0001 C CNN
+F 3 "" H 10950 8550 50  0001 C CNN
+	1    10950 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11250 8700 11250 8650
+Wire Wire Line
+	11250 8650 11800 8650
+Wire Wire Line
+	10950 8550 10950 8500
+Wire Wire Line
+	10950 8500 11800 8500
+Wire Wire Line
+	2950 5400 4100 5400
+Text Label 4100 5400 2    60   ~ 0
+AUX_BATT­_CURRENT_SENS
+Wire Wire Line
+	2950 5500 4100 5500
+Text Label 4100 5500 2    60   ~ 0
+AUX_BATT­_VOLTAGE_SENS
+Wire Wire Line
+	2950 5600 4150 5600
+Text Label 4150 5600 2    60   ~ 0
+BATT­_CURRENT_SENS_PROT
+Wire Wire Line
+	2950 5700 4150 5700
+Text Label 4150 5700 2    60   ~ 0
+BATT­_VOLTAGE_SENS_PROT
+Wire Wire Line
+	10500 8200 11800 8200
+Text Label 10500 8200 0    60   ~ 0
+AUX_BATT­_CURRENT_SENS_1
+Wire Wire Line
+	10600 8050 11800 8050
+Text Label 10600 8050 0    60   ~ 0
+AUX_BATT­_VOLTAGE_SENS
+Wire Wire Line
+	10450 7900 11800 7900
+Text Label 10450 7900 0    60   ~ 0
+BATT­_CURRENT_SENS_PROT_1
+Wire Wire Line
+	10550 7750 11800 7750
+Text Label 10550 7750 0    60   ~ 0
+BATT­_VOLTAGE_SENS_PROT
+$Comp
+L Autopilot_Rev0-rescue:+5V_Sensors-RESCUE-Autopilot_Rev0 #PWR050
+U 1 1 59A653C9
+P 10350 9600
+F 0 "#PWR050" H 10350 9450 50  0001 C CNN
+F 1 "+5V_Sensors" H 10365 9773 50  0000 C CNN
+F 2 "" H 10350 9600 50  0001 C CNN
+F 3 "" H 10350 9600 50  0001 C CNN
+	1    10350 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+5V_Cube-RESCUE-Autopilot_Rev0 #PWR048
+U 1 1 59A6547E
+P 10050 9450
+F 0 "#PWR048" H 10050 9300 50  0001 C CNN
+F 1 "+5V_Cube" H 10065 9623 50  0000 C CNN
+F 2 "" H 10050 9450 50  0001 C CNN
+F 3 "" H 10050 9450 50  0001 C CNN
+	1    10050 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+5V_Servo-RESCUE-Autopilot_Rev0 #PWR045
+U 1 1 59A65533
+P 9750 9300
+F 0 "#PWR045" H 9750 9150 50  0001 C CNN
+F 1 "+5V_Servo" H 9765 9473 50  0000 C CNN
+F 2 "" H 9750 9300 50  0001 C CNN
+F 3 "" H 9750 9300 50  0001 C CNN
+	1    9750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Sensors-RESCUE-Autopilot_Rev0 #PWR049
+U 1 1 59A655E8
+P 10350 8550
+F 0 "#PWR049" H 10350 8300 50  0001 C CNN
+F 1 "GND_Sensors" H 10355 8377 50  0000 C CNN
+F 2 "" H 10350 8550 50  0001 C CNN
+F 3 "" H 10350 8550 50  0001 C CNN
+	1    10350 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Cube-RESCUE-Autopilot_Rev0 #PWR047
+U 1 1 59A6569D
+P 10050 8700
+F 0 "#PWR047" H 10050 8450 50  0001 C CNN
+F 1 "GND_Cube" H 10055 8527 50  0000 C CNN
+F 2 "" H 10050 8700 50  0001 C CNN
+F 3 "" H 10050 8700 50  0001 C CNN
+	1    10050 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Servo-RESCUE-Autopilot_Rev0 #PWR044
+U 1 1 59A6583D
+P 9750 8850
+F 0 "#PWR044" H 9750 8600 50  0001 C CNN
+F 1 "GND_Servo" H 9755 8677 50  0000 C CNN
+F 2 "" H 9750 8850 50  0001 C CNN
+F 3 "" H 9750 8850 50  0001 C CNN
+	1    9750 8850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 9350 9750 9350
+Text Label 9100 9350 0    60   ~ 0
++5V_Servo
+Wire Wire Line
+	9750 9350 9750 9300
+Wire Wire Line
+	9400 9500 10050 9500
+Text Label 9400 9500 0    60   ~ 0
++5V_Cube
+Wire Wire Line
+	9700 9650 10350 9650
+Text Label 9700 9650 0    60   ~ 0
++5V_Sensors
+Wire Wire Line
+	10350 9650 10350 9600
+Wire Wire Line
+	10050 9500 10050 9450
+Wire Wire Line
+	9100 8800 9750 8800
+Text Label 9100 8800 0    60   ~ 0
+GND_Servo
+Wire Wire Line
+	9750 8800 9750 8850
+Wire Wire Line
+	9400 8650 10050 8650
+Text Label 9400 8650 0    60   ~ 0
+GND_Cube
+Wire Wire Line
+	9700 8500 10350 8500
+Text Label 9700 8500 0    60   ~ 0
+GND_Sensors
+Wire Wire Line
+	10050 8650 10050 8700
+Wire Wire Line
+	10350 8500 10350 8550
+Wire Wire Line
+	14500 2250 14050 2250
+Text Label 14050 2250 0    60   ~ 0
+GND_Cube
+Wire Wire Line
+	14500 2350 14050 2350
+Text Label 14050 2350 0    60   ~ 0
+GND_Cube
+Wire Wire Line
+	14500 2550 14050 2550
+Text Label 14050 2550 0    60   ~ 0
++5V_Cube
+Wire Wire Line
+	14500 2650 14050 2650
+Text Label 14050 2650 0    60   ~ 0
++5V_Cube
+$Comp
+L Autopilot_Rev0-rescue:GND_Cube-RESCUE-Autopilot_Rev0 #PWR036
+U 1 1 599E78A4
+P 5600 10750
+F 0 "#PWR036" H 5600 10500 50  0001 C CNN
+F 1 "GND_Cube" H 5605 10577 50  0000 C CNN
+F 2 "" H 5600 10750 50  0001 C CNN
+F 3 "" H 5600 10750 50  0001 C CNN
+	1    5600 10750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:R_Small-RESCUE-Autopilot_Rev0 R6
+U 1 1 599E844A
+P 5850 10450
+F 0 "R6" V 5654 10450 50  0000 C CNN
+F 1 "10k" V 5745 10450 50  0000 C CNN
+F 2 "Resistors-Mini-SMD:R_0805" H 5850 10450 50  0001 C CNN
+F 3 "" H 5850 10450 50  0001 C CNN
+F 4 "vorhanden [0805]" H 5850 10450 60  0001 C CNN "manf#"
+	1    5850 10450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 10650 5600 10750
+Wire Wire Line
+	4250 10450 5600 10450
+Wire Wire Line
+	5600 10500 5600 10450
+Connection ~ 5600 10450
+$Comp
+L Autopilot_Rev0-rescue:GND_Cube-RESCUE-Autopilot_Rev0 #PWR038
+U 1 1 599F0749
+P 5600 9950
+F 0 "#PWR038" H 5600 9700 50  0001 C CNN
+F 1 "GND_Cube" H 5605 9777 50  0000 C CNN
+F 2 "" H 5600 9950 50  0001 C CNN
+F 3 "" H 5600 9950 50  0001 C CNN
+	1    5600 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:R_Small-RESCUE-Autopilot_Rev0 R7
+U 1 1 599F0755
+P 5850 9650
+F 0 "R7" V 5654 9650 50  0000 C CNN
+F 1 "10k" V 5745 9650 50  0000 C CNN
+F 2 "Resistors-Mini-SMD:R_0805" H 5850 9650 50  0001 C CNN
+F 3 "" H 5850 9650 50  0001 C CNN
+F 4 "vorhanden [0805]" H 5850 9650 60  0001 C CNN "manf#"
+	1    5850 9650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 9850 5600 9950
+Wire Wire Line
+	4300 9650 5600 9650
+Wire Wire Line
+	5600 9700 5600 9650
+Connection ~ 5600 9650
+Wire Wire Line
+	5950 10450 7400 10450
+Text Label 7400 10450 2    60   ~ 0
+BATT­_CURRENT_SENS_PROT_1
+Wire Wire Line
+	5950 9650 7350 9650
+Text Label 7350 9650 2    60   ~ 0
+AUX_BATT­_CURRENT_SENS_1
+Text Label 4250 10450 0    60   ~ 0
+BATT­_CURRENT_SENS_PROT
+Text Label 4300 9650 0    60   ~ 0
+AUX_BATT­_CURRENT_SENS
+Wire Wire Line
+	11800 7150 11100 7150
+Text Label 11100 7150 0    60   ~ 0
++3V3_Sensors
+Text Label 7500 4650 0    60   ~ 0
+IO-CH1-PROT
+Text Label 7500 3950 0    60   ~ 0
+IO-CH2-PROT
+Wire Wire Line
+	8150 5050 7650 5050
+Text Label 7650 5050 0    60   ~ 0
+GND_Servo
+$Comp
+L Autopilot_Rev0-rescue:+3V3-RESCUE-Autopilot_Rev0 #PWR075
+U 1 1 59A02593
+P 1600 2100
+F 0 "#PWR075" H 1600 1950 50  0001 C CNN
+F 1 "+3V3" H 1615 2273 50  0000 C CNN
+F 2 "" H 1600 2100 50  0001 C CNN
+F 3 "" H 1600 2100 50  0001 C CNN
+	1    1600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2100 1600 2150
+Wire Wire Line
+	13300 2750 13300 2850
+Wire Wire Line
+	1600 2150 2250 2150
+Text Label 2250 2150 2    60   ~ 0
++3V3_Sensors
+Wire Wire Line
+	3500 6600 4150 6600
+Text Label 3500 6600 0    60   ~ 0
++5V_Cube
+Text Label 5900 7950 0    60   ~ 0
++5V_Cube
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X03-RESCUE-Autopilot_Rev0 J37
+U 1 1 59CED7DE
+P 12850 5750
+F 0 "J37" H 12927 5791 50  0000 L CNN
+F 1 "SPKT" H 12927 5700 50  0000 L CNN
+F 2 "JST_ZH:JST_ZH_B3B-ZR" H 12850 5750 50  0001 C CNN
+F 3 "" H 12850 5750 50  0001 C CNN
+F 4 "B3B-ZR(LF)(SN)" H 12850 5750 60  0001 C CNN "manf#"
+F 5 "455-1658-ND" H 12850 5750 60  0001 C CNN "digikey#"
+F 6 "Value" H 12850 5750 60  0001 C CNN "vorhanden"
+	1    12850 5750
+	1    0    0    -1  
+$EndComp
+Text Label 11250 5650 0    60   ~ 0
+IO-USART1_RX_SPECTRUM_DSM
+Wire Wire Line
+	11250 5650 12650 5650
+Wire Wire Line
+	10150 5750 10800 5750
+Text Label 10150 5750 0    60   ~ 0
+GND_Sensors
+Wire Wire Line
+	12650 5850 11950 5850
+Text Label 11950 5850 0    60   ~ 0
++3V3_Sensors
+Wire Wire Line
+	3500 6950 4150 6950
+Text Label 3500 6950 0    60   ~ 0
++5V_Cube
+Text Label 9400 5800 2    60   ~ 0
+VBUS
+Wire Wire Line
+	9150 5800 9400 5800
+NoConn ~ 2250 7950
+NoConn ~ 2250 8050
+NoConn ~ 2450 8700
+NoConn ~ 2450 8800
+NoConn ~ 2450 8900
+NoConn ~ 14200 4850
+NoConn ~ 14200 4950
+NoConn ~ 2250 6450
+NoConn ~ 2250 6750
+NoConn ~ 14800 1500
+NoConn ~ 14800 1600
+NoConn ~ 2450 4850
+NoConn ~ 2450 4950
+NoConn ~ 2550 9550
+NoConn ~ 14200 4750
+Text Label 11500 7300 0    60   ~ 0
+VBUS
+Wire Wire Line
+	11500 7300 11800 7300
+Text Label 7900 5750 0    60   ~ 0
+VBUS
+Wire Wire Line
+	7900 5750 8150 5750
+NoConn ~ 14500 3350
+NoConn ~ 14500 3250
+NoConn ~ 14500 3050
+$Comp
+L Autopilot_Rev0-rescue:LED-RESCUE-Autopilot_Rev0 LD2
+U 1 1 59E1815C
+P 4200 6950
+F 0 "LD2" H 4225 7117 40  0000 C CNN
+F 1 "LED-AMBER" H 4225 7041 40  0000 C CNN
+F 2 "w_smd_leds:Led_0805" H 4200 6950 60  0001 C CNN
+F 3 "" H 4200 6950 60  0000 C CNN
+F 4 "LTST-C170KFKT" H 4200 6950 60  0001 C CNN "manf#"
+F 5 "160-1413-1-ND" H 4200 6950 60  0001 C CNN "digikey#"
+F 6 "Value" H 4200 6950 60  0001 C CNN "vorhanden"
+F 7 "Value" H 4200 6950 60  0001 C CNN "farnell#"
+F 8 "Value" H 4200 6950 60  0001 C CNN "banggood#"
+	1    4200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:LED-RESCUE-Autopilot_Rev0 LD1
+U 1 1 59E1969D
+P 4200 6600
+F 0 "LD1" H 4225 6767 40  0000 C CNN
+F 1 "LED-SAFETY" H 4225 6691 40  0000 C CNN
+F 2 "w_smd_leds:Led_0805" H 4200 6600 60  0001 C CNN
+F 3 "" H 4200 6600 60  0000 C CNN
+F 4 "CMDA5DR7D1SCT-ND" H 4200 6600 60  0001 C CNN "manf#"
+F 5 "CMDA5DR7D1SCT-ND" H 4200 6600 60  0001 C CNN "digikey#"
+F 6 "Value" H 4200 6600 60  0001 C CNN "vorhanden"
+F 7 "Value" H 4200 6600 60  0001 C CNN "farnell#"
+F 8 "Value" H 4200 6600 60  0001 C CNN "banggood#"
+	1    4200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:ZENER-RESCUE-Autopilot_Rev0 D2
+U 1 1 59E1DD49
+P 5600 9800
+F 0 "D2" V 5663 9747 40  0000 R CNN
+F 1 "3V6" V 5587 9747 40  0000 R CNN
+F 2 "w_smd_diode:sod123" H 5600 9800 60  0001 C CNN
+F 3 "" H 5600 9800 60  0000 C CNN
+F 4 "MMSZ4685-TP" H 5600 9800 60  0001 C CNN "manf#"
+F 5 "MMSZ4685-TPMSCT-ND" H 5600 9800 60  0001 C CNN "digikey#"
+F 6 "Value" H 5600 9800 60  0001 C CNN "vorhanden"
+F 7 "Value" H 5600 9800 60  0001 C CNN "farnell#"
+F 8 "Value" H 5600 9800 60  0001 C CNN "banggood#"
+	1    5600 9800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:ZENER-RESCUE-Autopilot_Rev0 D1
+U 1 1 59E23165
+P 5600 10600
+F 0 "D1" V 5663 10547 40  0000 R CNN
+F 1 "3V6" V 5587 10547 40  0000 R CNN
+F 2 "w_smd_diode:sod123" H 5600 10600 60  0001 C CNN
+F 3 "" H 5600 10600 60  0000 C CNN
+F 4 "MMSZ4685-TP" H 5600 10600 60  0001 C CNN "manf#"
+F 5 "MMSZ4685-TPMSCT-ND" H 5600 10600 60  0001 C CNN "digikey#"
+F 6 "Value" H 5600 10600 60  0001 C CNN "vorhanden"
+F 7 "Value" H 5600 10600 60  0001 C CNN "farnell#"
+F 8 "Value" H 5600 10600 60  0001 C CNN "banggood#"
+	1    5600 10600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:BSS138-RESCUE-Autopilot_Rev0 Q1
+U 1 1 59E6DC8D
+P 11000 5850
+F 0 "Q1" V 11343 5850 50  0000 C CNN
+F 1 "BSS138" V 11252 5850 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 11200 5775 50  0001 L CIN
+F 3 "" H 11000 5850 50  0001 L CNN
+F 4 "BSS138" H 11000 5850 60  0001 C CNN "manf#"
+F 5 "BSS138CT-ND" H 11000 5850 60  0001 C CNN "digikey#"
+F 6 "Value" H 11000 5850 60  0001 C CNN "vorhanden"
+F 7 "-" H 11000 5850 60  0001 C CNN "#mouser"
+F 8 "9845330" H 11000 5850 60  0001 C CNN "farnell#"
+F 9 "Value" H 11000 5850 60  0001 C CNN "banggood#"
+	1    11000 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11200 5750 12650 5750
+Wire Wire Line
+	14500 2450 13400 2450
+Text Label 13400 2450 0    60   ~ 0
+VDD_3V3_SPECTRUM_EN
+Wire Wire Line
+	9800 6100 11000 6100
+Text Label 9800 6100 0    60   ~ 0
+VDD_3V3_SPECTRUM_EN
+Wire Wire Line
+	11000 6100 11000 6050
+$Comp
+L Autopilot_Rev0-rescue:GND_Sensors-RESCUE-Autopilot_Rev0 #PWR060
+U 1 1 59E8FCB3
+P 5200 4300
+F 0 "#PWR060" H 5200 4050 50  0001 C CNN
+F 1 "GND_Sensors" H 5205 4127 50  0000 C CNN
+F 2 "" H 5200 4300 50  0001 C CNN
+F 3 "" H 5200 4300 50  0001 C CNN
+	1    5200 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4250 5200 4300
+Wire Wire Line
+	4050 3950 4150 3950
+$Comp
+L Autopilot_Rev0-rescue:+5V_Sensors-RESCUE-Autopilot_Rev0 #PWR061
+U 1 1 59E94176
+P 5200 4000
+F 0 "#PWR061" H 5200 3850 50  0001 C CNN
+F 1 "+5V_Sensors" H 5250 4150 50  0000 C CNN
+F 2 "" H 5200 4000 50  0001 C CNN
+F 3 "" H 5200 4000 50  0001 C CNN
+	1    5200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:+5V_Cube-RESCUE-Autopilot_Rev0 #PWR063
+U 1 1 59E95FB5
+P 13100 3850
+F 0 "#PWR063" H 13100 3700 50  0001 C CNN
+F 1 "+5V_Cube" H 13115 4023 50  0000 C CNN
+F 2 "" H 13100 3850 50  0001 C CNN
+F 3 "" H 13100 3850 50  0001 C CNN
+	1    13100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Cube-RESCUE-Autopilot_Rev0 #PWR076
+U 1 1 59E976A3
+P 13100 4150
+F 0 "#PWR076" H 13100 3900 50  0001 C CNN
+F 1 "GND_Cube" H 13105 3977 50  0000 C CNN
+F 2 "" H 13100 4150 50  0001 C CNN
+F 3 "" H 13100 4150 50  0001 C CNN
+	1    13100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 4100 13100 4150
+Wire Wire Line
+	13100 3900 13100 3850
+$Comp
+L Autopilot_Rev0-rescue:CPOL-RESCUE-Autopilot_Rev0 C7
+U 1 1 59E9E908
+P 13100 4000
+F 0 "C7" H 13212 4046 50  0000 L CNN
+F 1 "100uF" H 13212 3955 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 13090 3975 60  0001 C CNN
+F 3 "" H 13090 3975 60  0000 C CNN
+F 4 "EEE-FT0J101AR" H 13100 4000 60  0001 C CNN "manf#"
+F 5 "P15076CT-ND" H 13100 4000 60  0001 C CNN "digikey#"
+F 6 "Value" H 13100 4000 60  0001 C CNN "vorhanden"
+F 7 "Value" H 13100 4000 60  0001 C CNN "farnell#"
+F 8 "Value" H 13100 4000 60  0001 C CNN "banggood#"
+	1    13100 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:CPOL-RESCUE-Autopilot_Rev0 C5
+U 1 1 59E9F13D
+P 5200 4150
+F 0 "C5" H 5312 4196 50  0000 L CNN
+F 1 "100uF" H 5312 4105 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.8" H 5190 4125 60  0001 C CNN
+F 3 "" H 5190 4125 60  0000 C CNN
+F 4 "EEE-FT0J101AR" H 5200 4150 60  0001 C CNN "manf#"
+F 5 "P15076CT-ND" H 5200 4150 60  0001 C CNN "digikey#"
+F 6 "Value" H 5200 4150 60  0001 C CNN "vorhanden"
+F 7 "1924402" H 5200 4150 60  0001 C CNN "farnell#"
+F 8 "Value" H 5200 4150 60  0001 C CNN "banggood#"
+	1    5200 4150
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2450 7500
+Wire Wire Line
+	14000 3150 14500 3150
+Text Label 14000 3150 0    60   ~ 0
++5V_Cube
+Wire Wire Line
+	14000 2950 14500 2950
+Text Label 14000 2950 0    60   ~ 0
++5V_Cube
+Wire Wire Line
+	6050 8400 6550 8400
+Text Label 6050 8400 0    60   ~ 0
++5V_Cube
+Text Label 6000 2450 2    60   ~ 0
+SERIAL2_TX
+Wire Wire Line
+	6000 2450 5450 2450
+Text Label 6000 2550 2    60   ~ 0
+SERIAL2_RX
+Wire Wire Line
+	6000 2550 5450 2550
+Wire Wire Line
+	4050 3950 4050 3900
+Wire Wire Line
+	4050 4450 4050 4500
+Text Label 3600 4050 0    60   ~ 0
+SERIAL1_TX
+Wire Wire Line
+	3600 4050 4150 4050
+Text Label 3600 4150 0    60   ~ 0
+SERIAL1_RX
+Wire Wire Line
+	3600 4150 4150 4150
+Text Label 3550 4250 0    60   ~ 0
+SERIAL1_CTS
+Wire Wire Line
+	3550 4250 4150 4250
+Text Label 3550 4350 0    60   ~ 0
+SERIAL1_RTS
+Wire Wire Line
+	3550 4350 4150 4350
+Wire Notes Line
+	650  1000 4050 1000
+Wire Notes Line
+	4050 3350 650  3350
+Wire Notes Line
+	650  3350 650  1000
+Wire Notes Line
+	4050 1000 4050 3350
+Wire Notes Line
+	10600 3700 11900 3700
+Wire Notes Line
+	11900 3700 11900 4900
+Wire Notes Line
+	11900 4900 10600 4900
+Wire Notes Line
+	10600 4900 10600 3700
+Text Notes 11600 4850 0    60   ~ 0
+GPS 1
+Wire Notes Line
+	3500 3650 5600 3650
+Wire Notes Line
+	5600 3650 5600 4900
+Wire Notes Line
+	5600 4900 3500 4900
+Wire Notes Line
+	3500 4900 3500 3650
+Wire Notes Line
+	7700 5450 9600 5450
+Wire Notes Line
+	9600 5450 9600 6850
+Wire Notes Line
+	9600 6850 7700 6850
+Wire Notes Line
+	7700 6850 7700 5450
+Wire Notes Line
+	7400 3600 10200 3600
+Wire Notes Line
+	10200 3600 10200 5350
+Wire Notes Line
+	10200 5350 7400 5350
+Wire Notes Line
+	7400 5350 7400 3600
+Text Notes 9200 5350 0    60   ~ 0
+Flugzeug-Connectors\nMotor-Power
+Text Notes 7800 6850 0    60   ~ 0
+USB-Connectors
+Text Notes 4950 4850 0    60   ~ 0
+Telemetrie 1
+Wire Notes Line
+	9750 5450 13250 5450
+Wire Notes Line
+	13250 5450 13250 6750
+Wire Notes Line
+	13250 6750 9750 6750
+Wire Notes Line
+	9750 6750 9750 5450
+Wire Notes Line
+	3450 6300 7350 6300
+Wire Notes Line
+	7350 6300 7350 8950
+Wire Notes Line
+	7350 8950 3450 8950
+Wire Notes Line
+	3450 8950 3450 6300
+Wire Notes Line
+	4200 9400 7450 9400
+Wire Notes Line
+	7450 9400 7450 11050
+Wire Notes Line
+	7450 11050 4200 11050
+Wire Notes Line
+	4200 11050 4200 9400
+Text Notes 6250 11050 0    60   ~ 0
+I-Monitoring Protection
+Text Notes 5800 8950 0    60   ~ 0
+Switches; LEDs; Buzzer; Analog\n
+NoConn ~ 2450 8500
+NoConn ~ 2450 8600
+Text Notes 3750 3300 0    60   ~ 0
+I2C 2
+$Comp
+L Autopilot_Rev0-rescue:RJHSE-5380-RESCUE-Autopilot_Rev0 Con2
+U 1 1 5A7EAFD3
+P 5000 2700
+F 0 "Con2" V 4425 2695 50  0000 C CNN
+F 1 "Payload" V 4516 2695 50  0000 C CNN
+F 2 "" H 5000 2650 50  0001 C CNN
+F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf" H 5150 2800 50  0001 C CNN
+	1    5000 2700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Autopilot_Rev0-rescue:GND_Servo-RESCUE-Autopilot_Rev0 #PWR085
+U 1 1 5A7EF5C4
+P 4550 3300
+F 0 "#PWR085" H 4550 3050 50  0001 C CNN
+F 1 "GND_Servo" H 4555 3127 50  0000 C CNN
+F 2 "" H 4550 3300 50  0001 C CNN
+F 3 "" H 4550 3300 50  0001 C CNN
+	1    4550 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2350 5950 2350
+Text Label 5950 2350 2    60   ~ 0
+GND_Servo
+Wire Wire Line
+	6200 2850 5450 2850
+Text Label 6200 2850 2    60   ~ 0
+FMU-CH1-PROT
+Wire Wire Line
+	6200 2750 5450 2750
+Text Label 6200 2750 2    60   ~ 0
+FMU-CH2-PROT
+Wire Wire Line
+	6200 2650 5450 2650
+Text Label 6200 2650 2    60   ~ 0
+FMU-CH3-PROT
+Wire Wire Line
+	4650 3250 4550 3250
+Wire Wire Line
+	4550 3250 4550 3300
+Text Label 5950 3050 2    60   ~ 0
+I2C_1_SCL
+Text Label 5950 2950 2    60   ~ 0
+I2C_1_SDA
+Wire Wire Line
+	5450 3050 5950 3050
+Wire Wire Line
+	5450 2950 5950 2950
+Wire Wire Line
+	11800 7450 11100 7450
+Text Label 11100 7450 0    60   ~ 0
+Power_Supply
+NoConn ~ 2450 4650
+NoConn ~ 2450 4750
+NoConn ~ 2950 5800
+NoConn ~ 2250 6250
+NoConn ~ 2250 6550
+NoConn ~ 2250 6650
+NoConn ~ 2250 6350
+NoConn ~ 2550 9450
+NoConn ~ 14200 5150
+NoConn ~ 14800 1200
+NoConn ~ 14800 1300
+NoConn ~ 14800 1400
+NoConn ~ 14200 4550
+NoConn ~ 2450 4050
+NoConn ~ 2450 4150
+$Comp
+L Autopilot_Rev0-rescue:CONN_01X04-RESCUE-Autopilot_Rev0 J4
+U 1 1 5A84F4D3
+P 8250 2700
+F 0 "J4" H 8328 2741 50  0000 L CNN
+F 1 "Power_Payload - mitPSInur2Pin" H 8328 2650 50  0000 L CNN
+F 2 "JST_PA:JST-PA-04_Top-entry-type" H 8250 2700 50  0001 C CNN
+F 3 "" H 8250 2700 50  0001 C CNN
+	1    8250 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2650 9100 2650
+Text Label 9100 2650 2    60   ~ 0
+Power_Supply
+Wire Wire Line
+	8450 2550 9100 2550
+Text Label 9100 2550 2    60   ~ 0
+Power_Supply
+Wire Wire Line
+	8950 2850 8450 2850
+Text Label 8950 2850 2    60   ~ 0
+GND_Servo
+Wire Wire Line
+	8950 2750 8450 2750
+Text Label 8950 2750 2    60   ~ 0
+GND_Servo
+Wire Wire Line
+	2650 2150 2650 2350
+Wire Wire Line
+	2750 2150 2750 2450
+Wire Wire Line
+	2650 2650 3450 2650
+Wire Wire Line
+	2750 2550 3450 2550
+Wire Wire Line
+	6450 6800 6500 6800
+Wire Wire Line
+	6850 6800 6950 6800
+Wire Wire Line
+	8850 6450 8850 6550
+Wire Wire Line
+	6850 7950 7250 7950
+Wire Wire Line
+	6450 7950 6500 7950
+Wire Wire Line
+	13300 2850 14500 2850
+Wire Wire Line
+	5600 10450 5750 10450
+Wire Wire Line
+	5600 9650 5750 9650
+$EndSCHEMATC

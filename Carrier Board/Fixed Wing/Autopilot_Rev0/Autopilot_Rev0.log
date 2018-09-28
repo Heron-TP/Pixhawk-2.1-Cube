@@ -1,0 +1,752 @@
+STEP in Solid Edge konvertieren
+Datum: Dienstag,April 17,2018 03:01
+Quelldatei: \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\Autopilot_Rev0.stp
+Autor: An Author
+Organisation: A Company
+Ausgangssystem: KiCad to STEP converter
+
+Hardware:
+Prozessor: Intel(R) Core(TM) i7 CPU         960  @ 3.20GHz
+Betriebssystem: Windows 8 Enterprise Edition
+Installierter Speicher: 23.99 GB
+
+Software-Informationen
+Parasolid-Version: 30.0.167
+PSBodyShop-Version: 30.0.81
+Step-Adapterversion: 3.0.52
+Solid Edge-Version: 110.00.00.107 x64
+
+Step-Importoptionen
+Facettierte Körper importieren: Ein
+Prüfkörper importieren: Aus
+Kurven importieren: Ein
+DoNotSave importieren: Ein
+Mehrere Körper als Einzelteildatei importieren: Ein
+Flächenvernähung importieren: Ein
+Boolesche Körper importieren: Ein
+Basisformelement erstellen: Ein
+Geometrie vereinfachen: Ein
+Druckkurven importieren: Ein
+Führung importieren: C:
+Flächenvernähung importieren: Ein
+Flächen importieren: Ein
+Ausgabepfad importieren: \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0
+Aktivieren des standardmäßigen Ausgabepfads importieren: Ein
+Pfad importieren: 
+
+Übersetzen in Parasolid-Datentypen...
++Baugruppe 1 beginnen
++SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\Autopilot_Rev0.asm wurde erstellt
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\CP_Radial_D10.0mm_P5.00mm.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOIC-8_3.9x4.9mm_P1.27mm.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_0.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\Pixhawk_2-Cube.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_1.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+Körper: 0
+|--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\sod123.par wurde erstellt
+Körper: 0
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\TO-263-3_TabPin2.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_2.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_3.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOD-128.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\COMPOUND.par wurde erstellt
+|--+Gesamtzahl der Teile: 20
+|--+Baugruppen: 0
+|--+Volumenkörper: 20
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOD-128.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOD-128.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\C_0805_2012Metric.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_4.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\CP_Elec_8x10.5.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_5.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\C_0603_1608Metric.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_6.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\C_0603_1608Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\C_0603_1608Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\C_0603_1608Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\D_SOD-123.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_7.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\D_SOD-123.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\STEP-WL-SMCW-0805-rev1.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\COMPOUND_0.par wurde erstellt
+|--+Gesamtzahl der Teile: 12
+|--+Baugruppen: 0
+|--+Volumenkörper: 12
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\D_SOD-123.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\D_SOD-123.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_1812_4532Metric.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_8.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_1812_4532Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_2816_7142Metric.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_9.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_1206_3216Metric.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_10.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_1206_3216Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_2816_7142Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\STEP-WL-SMCW-0805-rev1.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\STEP-WL-SMCW-0805-rev1.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\STEP-WL-SMCW-0805-rev1.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\D_SOD-123F.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_11.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\D_SOD-123F.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\CP_Elec_6.3x5.8.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_12.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\CP_Elec_4x5.8.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_13.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\C_0603_1608Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\CP_Elec_4x5.8.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B04B-PASK-1.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_14.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOIC-8_3.9x4.9mm_P1.27mm.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B10B-PASK-1.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_15.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B3B-ZR-3.4.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_16.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B03B-PASK-1.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_17.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B06B-PASK-1.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_18.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B06B-PASK-1.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B04B-PASK-1.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\USB_Micro-B_Molex_47346-0001.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_19.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\KSEK43JLFS.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_20.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\KSEK43JLFS.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B07B-PASK-1.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_21.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOT-23.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_22.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\XT60_Stecker.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_23.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\XT60_Stecker.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\STEP-WL-SMCW-0805-rev1.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B06B-PASK-1.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOT-223.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_24.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B3B-ZR-3.4.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\XT60_Stecker.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\M-RJHSE-5380-REVT1.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_25.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B04B-PASK-1.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\B04B-PASK-1.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\D_SOD-123.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\D_SOD-123.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\STEP-WL-SMCW-0805-rev1.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\STEP-WL-SMCW-0805-rev1.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+SE Assembly-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOT-23-6.asm wurde erstellt
+|  |--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOLID_26.par wurde erstellt
+|--+Gesamtzahl der Teile: 2
+|--+Baugruppen: 0
+|--+Volumenkörper: 2
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOT-23-6.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOT-23-6.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\SOT-23-6.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_0805_2012Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_1206_3216Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+Baugruppe 2 beginnen
+|--+Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\R_1206_3216Metric.asm wird wiederholt verwendet
+|--+Gesamtzahl der Teile: 0
+|--+Baugruppen: 0
+|--+Volumenkörper: 0
+|--+Flächenkörper: 0
+|--+Baugruppe 2 beenden
+|--+SE Part-Datei \\192.168.0.2\Austausch_Schwing\01 Projekte\2018\01 AUVSI\30 Electronics Compartment\Autopilot_Rev0\COMPOUND_1.par wurde erstellt
++Gesamtzahl der Teile: 32
++Baugruppen: 30
++Volumenkörper: 2
++Flächenkörper: 0
++Baugruppe 1 beenden
+Konvertierungsvorgang ist abgeschlossen
+Zur Übersetzung und Nachbearbeitung erforderte Gesamtzeit:00 : 00 : 35
